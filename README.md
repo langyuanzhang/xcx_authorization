@@ -4,7 +4,7 @@
 
 //放在App.js
 
-```
+```js
 /*****************zly *********/
   //获取用户授权信息
   newUserLogin: function (callback = function (res) { }) {
@@ -130,7 +130,7 @@
 
 Wxml文件：
 
-```
+```html
       <button class='topinfo-1' open-type="getUserInfo" bindtap='getAuth' plain='true' style='border:none;'>
         <image src='{{userdata.avatarUrl}}' id='Headportrait'></image>
         <text class='overflow'>{{userdata.nickname}}</text>
@@ -139,7 +139,7 @@ Wxml文件：
 
 Js文件：
 
-```
+```js
   //点击授权
   getAuth:function(){
     var that=this;
